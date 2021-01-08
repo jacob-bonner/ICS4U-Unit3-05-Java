@@ -12,7 +12,8 @@ public class MagicSquare {
    */
   static void printSquare(int[] printList) {
     // Printing a magic square
-    for (int printCounter = 0; printCounter < printList.length; printCounter++) {
+    for (int printCounter = 0; printCounter < printList.length;
+         printCounter++) {
       System.out.print(printList[printCounter] + " ");
       // Checking if three numbers are on a line
       if ((printCounter + 1) % 3 == 0) {
