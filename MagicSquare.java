@@ -11,6 +11,7 @@ public class MagicSquare {
    * This function prints a magic square should one be found.
    */
   static void printSquare(int[] printList) {
+    // Printing a magic square
     for (int printCounter = 0; printCounter < printList.length; printCounter++) {
       System.out.print(printList[printCounter] + " ");
       // Checking if three numbers are on a line
