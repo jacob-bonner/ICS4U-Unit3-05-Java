@@ -67,9 +67,9 @@ public class MagicSquare {
     int secondDiagonal = squareList[2] + squareList[4] + squareList[6];
 
     // If statement that finds whether or not the numbers form a magic square
-    if (firstRow == 15 && secondRow == 15 && thirdRow == 15 &&
-        firstColumn == 15 && secondColumn == 15 && thirdColumn == 15 &&
-        firstDiagonal == 15 && secondDiagonal == 15) {
+    if (firstRow == 15 && secondRow == 15 && thirdRow == 15
+        && firstColumn == 15 && secondColumn == 15 && thirdColumn == 15
+        && firstDiagonal == 15 && secondDiagonal == 15) {
       return true;
     } else {
       return false;
